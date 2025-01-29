@@ -1,0 +1,26 @@
+#1.Course Contents Explaination 
+
+#2.Java History , Versions 
+
+#3.JDK VS JRE
+
+#4.Java Installation (Directory Structures) 
+
+#5.Creating simple hello-world on notepad(open the terminal , save file ,Compilation and execution) 
+
+#6.Explaining Compilation of Java Program with Daigram 
+
+#7.Creating a notepad file with multiple class 
+
+#8.Creating a notepad file with multiple class but one public class (Show error)
+
+#9.Creating the first Hello world Program in STS (Explanation) 
+
+#10.Area of rectangle program 
+
+#11.Area of rectangle program / multiple public class in STS  
+
+
+
+
+

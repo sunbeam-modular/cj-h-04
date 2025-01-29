@@ -1,0 +1,19 @@
+Development Tools : Compiler + Preprocessor + Linker + Assembler + IDE ( optional) + debugger + Profiler 
+
+Documentation : MSDN , Java Docs , MAN Pages 
+
+Supporting Libraries 
+
+RunTime Env 
+
+SDK : Development Tool + Documentation + Supporting Libs + Runtime Env 
+
+//Java SDK : Java Development Tools + java DOCS + supporting Libs  of java + Runtime Env of java 
+ 
+Java SDK : Java Development Tools + java DOCS + rt.jar  + java virtual Machine ( JVM) 
+
+JRE = (rt.jar + JVM)
+
+JDK : java Devlopment tools + java Docs + JRE( rt.jar + JVM) 
+
+   
