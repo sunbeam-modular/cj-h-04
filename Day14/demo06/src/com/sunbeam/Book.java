@@ -1,0 +1,83 @@
+package com.sunbeam;
+
+import java.util.Objects;
+
+public class Book implements Comparable<Book> {
+	private int id;
+	private String name;
+	private String subject;
+	private double price;
+
+	public Book() {
+	}
+
+	public Book(int id, String name, String subject, double price) {
+		this.id = id;
+		this.name = name;
+		this.subject = subject;
+		this.price = price;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + id;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!(obj instanceof Book))
+			return false;
+		Book other = (Book) obj;
+		if (id != other.id)
+			return false;
+		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Book [id=" + id + ", name=" + name + ", subject=" + subject + ", price=" + price + "]";
+	}
+
+	@Override
+	public int compareTo(Book obj) {
+		int diff = this.id -  obj.getId();
+		return diff; 
+	}
+}
